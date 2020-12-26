@@ -15,5 +15,5 @@ func main() {
 	fmt.Println("\n APtr: ", *aPtr)
 
 	fmt.Println("\n --------Double pointer---------")
-	fmt.Println("\n A: ", **dPtr)
+	fmt.Println("\n DPtr: ", **dPtr)
 }
