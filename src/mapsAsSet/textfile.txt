@@ -1,0 +1,2 @@
+This is the text file. this text file contains duplicate words. 
+The text file is having this as duplicate words. also the is repeated word here
