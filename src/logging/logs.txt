@@ -1,0 +1,10 @@
+2020/12/27 18:51:02 Hello world
+2020/12/27 18:51:58 Hello world
+2020/12/27 18:51:58 error occurred 
+
+Info: 2020/12/27 18:59:20 main.go:32: Application started...
+Info: 2020/12/27 18:59:20 main.go:33: Something is executing...
+Warning: 2020/12/27 18:59:20 main.go:35: Something is wrong you should know about it
+Warning: 2020/12/27 18:59:20 main.go:36: It may not harm prog execution but better to fix it
+Error: 2020/12/27 18:59:20 main.go:38: Someting went wrong
+Error: 2020/12/27 18:59:20 main.go:39: Program failed
