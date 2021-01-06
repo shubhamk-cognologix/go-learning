@@ -1,0 +1,9 @@
+{"level":"DEBUG","time":"2021-01-06T01:14:33.356-0800","caller":"zaploggers/main.go:57","message":"some values","region":"us-west-2"}
+{"level":"INFO","time":"2021-01-06T01:14:33.356-0800","caller":"zaploggers/main.go:59","message":"some processing","bucket":"some-bucket"}
+{"level":"ERROR","time":"2021-01-06T01:14:33.356-0800","caller":"zaploggers/main.go:61","message":"some error","file":"somefile.txt"}
+{"level":"DEBUG","time":"2021-01-06T01:15:11.612-0800","caller":"zaploggers/main.go:58","message":"some values","region":"us-west-2"}
+{"level":"INFO","time":"2021-01-06T01:15:11.612-0800","caller":"zaploggers/main.go:60","message":"some processing","bucket":"some-bucket"}
+{"level":"ERROR","time":"2021-01-06T01:15:11.612-0800","caller":"zaploggers/main.go:62","message":"some error","file":"somefile.txt"}
+{"level":"DEBUG","time":"2021-01-06T01:15:59.049-0800","caller":"zaploggers/main.go:58","message":"some values","region":"us-west-2"}
+{"level":"INFO","time":"2021-01-06T01:15:59.049-0800","caller":"zaploggers/main.go:60","message":"some processing","bucket":"some-bucket"}
+{"level":"ERROR","time":"2021-01-06T01:15:59.049-0800","caller":"zaploggers/main.go:62","message":"some error","file":"somefile.txt"}

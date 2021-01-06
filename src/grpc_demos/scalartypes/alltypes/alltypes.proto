@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+option go_package = "cogno.com/grpc/alltypes";
+
+package alltypes;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+  // Sends another greeting
+  rpc SayHelloAgain (HelloRequest) returns (HelloReply) {}
+}
+service AllTypes{
+  rpc GetAllTypeData(RequestAllTypesData) returns (ResponseAllTypesData){}
+}
+message RequestAllTypesData{
+  string name = 1;
+  double weight = 2;
+  int32 age = 3;
+  int64 heightinCM = 4;
+  float height = 5;
+  uint32 no1 = 6;
+  uint64 no2 = 7;
+  sint32 no3 = 8;
+  sint64 no4 = 9;
+  fixed32 fno1 = 10;
+  fixed64 fno2 = 11;
+  sfixed32 fno3 = 12;
+  sfixed64 fno4 = 13;
+  bool adult = 14;
+  bytes info = 15;
+
+  enum Weekdays{
+    Sun = 0;
+    Mon = 1;
+    Tue = 2;
+    Wed = 3;
+    Thu = 4;
+    Fri = 5;
+    Sat = 6;
+  }
+  Weekdays day = 16;
+  map<string, int32> dict = 17;
+  repeated int32 array = 18;
+}
+
+message ResponseAllTypesData{
+  string msg = 1;
+}
+
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}
